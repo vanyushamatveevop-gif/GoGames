@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*----------ТЕЛЕФОН----------*/
+@media (max-width:420px){
+    body {
+    margin: 0 auto;
+    font-family: Josefin Sans;
+}
+}
+
+/*----------ПЛАНШЕТ----------*/
+@media (min-width:481px) and (max-width:768px){
+    body {
+    margin: 0 auto;
+    font-family: Josefin Sans;
+}
+}
+
+/*----------ДЕСКТОП----------*/
+@media (min-width:769px){
+    body {
+    margin: 0 auto;
+    font-family: Josefin Sans;
+}
+
+header {
+    background: #ebbfa8;
+}
+
+.container-1 {
+    width: 1167px;
+    height: 78px;
+    padding-left: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 286px;
+    height: 78px;
+    background-image: url(../img/1.png);
+}
+
+.block-1 {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a {
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.button-1 {
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background: rgb(67, 196, 255);
+}
+
+.section-1 {
+    height: 688px;
+    padding-top: 50px;
+    padding-left: 8%;
+    display: flex;
+    background: #ebbfa8;
+}
+
+.text-content-1 {
+    width: 500px;
+    height: 500px;
+    text-align: left;
+}
+
+.Gaming-Consoles {
+    font-size: 23pt;
+    color: #6D597A;
+}
+
+.Save-1 {
+    font-size: 45pt;
+    padding-top: 30px;
+    color: #E56B6F;
+}
+
+.Save-2 {
+    font-size: 45pt;
+    color: #6D597A;
+}
+
+.about-price {
+    font-size: 13pt;
+    padding-top: 30px;
+    color: #877593;
+}
+
+.button-2 {
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background: rgb(67, 196, 255);
+}
+
+.consoles-img {
+    width: 718px;
+    height: 600px;
+    background-size: contain;
+    background-image: url(../img/2.png);
+}
+
+.section-VR {
+    height: 688px;
+    padding-top: 50px;
+    padding-left: 8%;
+    display: flex;
+    background: #edc5b0;
+}
+
+.text-content-VR {
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+}
+
+.About-VR-Glasses {
+    font-size: 23pt;
+    color: #6D597A;
+}
+
+.logo-text-VR {
+    width: 500px;
+    padding-top: 30px;
+    font-size: 45pt;
+    color: #E56B6F;
+}
+
+.about-VR {
+    font-size: 13pt;
+    padding-top: 30px;
+    color: #877593;
+}
+
+.VR-img {
+    width: 556px;
+    height: 586px;
+    background-image: url(../img/3.png);
+}
+
+.button-3 {
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background: rgb(67, 196, 255);
+}
+
+.section-XBOX {
+    height: 688px;
+    padding-top: 50px;
+    display: flex;
+    background: #ebbfa8;
+}
+
+.text-content-XBOX {
+    width: 500px;
+    height: 100px;
+    padding-left: 8%;
+}
+
+.About-XBOX-PS {
+    font-size: 23pt;
+    color: #6D597A;
+}
+
+.logo-text-XBOX {
+    padding-top: 30px;
+    font-size: 42pt;
+    color: #E56B6F;
+}
+
+.about-XBOX {
+    font-size: 13pt;
+    padding-top: 30px;
+    color: #877593;
+}
+
+.button-4 {
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background: rgb(67, 196, 255);
+}
+
+.XBOX-img {
+    width: 615px;
+    height: 548px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/4.png);
+}
+
+.cards {
+    height: 688px;
+    background: #edc5b0;
+}
+
+.card {
+    display: flex;
+}
+
+}
+
